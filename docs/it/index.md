@@ -27,32 +27,75 @@ BlocksTimer è un timer a intervalli avanzato, progettato per essere flessibile 
 - **Personalizzazione:** Assegna un nome e un colore a ogni workout per riconoscerlo al volo.
 - **Organizzazione:** Raggruppa i tuoi workout preferiti in Collezioni (es. "Riscaldamento", "HIIT", "Tabata").
 
-![Screenshot della lista workout](assets/images/screenshot_lista_workout.png)
-*(Ricorda di sostituire il percorso con quello corretto, partendo dalla cartella docs)*
--> `../assets/images/screenshot_lista_workout.png`
-
 ### 2. La Schermata Principale: La Lista dei Workout
-... *spiega come funziona la lista, il pulsante "+" per creare, il menu per modificare/cancellare/associare e i filtri per collezioni.* ...
+*... Contenuto da aggiungere ...*
+
+---
 
 ### 3. Creare e Modificare un Workout
-Quando crei un nuovo workout, la prima cosa da fare è dargli un nome e scegliere un colore. Una volta fatto, puoi iniziare ad aggiungere i blocchi che comporranno la tua sessione.
-- **Nome e Colore:** Danno identità al tuo allenamento.
-- **Aggiungi Blocco:** Apre la schermata dove puoi definire il tipo di blocco e le sue tempistiche.
-- **Ordinamento:** Tieni premuto e trascina un blocco per cambiarne la posizione nell'allenamento.
 
-![Screenshot della creazione di un blocco](../assets/images/screenshot_creazione_blocco.png)
+Creare un nuovo workout è un processo guidato e intuitivo. Vediamo i passaggi uno per uno.
+
+#### Passo 1: Iniziare
+Se non hai ancora creato nessun timer, vedrai la schermata iniziale. Premi il pulsante **"+ Add Timer"** per cominciare. Se hai già dei workout, puoi usare il pulsante **"+"** in alto a destra nella schermata principale.
+
+![Schermata iniziale per creare il primo timer](../assets/images/add_timer.jpg)
+
+#### Passo 2: Dare un Nome e un Colore
+La prima cosa da fare è dare un'identità al tuo allenamento.
+1.  **Scrivi un nome** descrittivo (es. "Tabata Intenso").
+2.  **Scegli un colore** dalla palette per riconoscerlo facilmente nella lista.
+3.  Premi **"Conferma"**.
+
+![Schermata per nominare il timer e scegliere un colore](../assets/images/add_timer_select_name_and_color.jpg)
+
+#### Passo 3: Aggiungere il Primo Blocco
+Ora sei nell'editor del workout. Inizialmente è vuoto. Premi **"+ Add Block"** per aprire la finestra di dialogo e creare il tuo primo blocco di allenamento.
+
+![Editor del workout vuoto](../assets/images/add_blocks_in_timer.jpg)
+
+Nella finestra di dialogo, puoi definire tutti i parametri del tuo blocco: durata del lavoro (Work), del riposo (Rest), numero di Round e Cicli. Premi **"Save"** per aggiungerlo al tuo workout.
+
+![Finestra di dialogo per la creazione di un blocco a intervalli](../assets/images/add_blocks_dialog.jpg)
+
+#### Passo 4: Costruire la Sequenza
+Una volta aggiunto il primo blocco, questo apparirà nell'editor. Puoi continuare ad aggiungere altri blocchi per creare sequenze complesse. Ad esempio, dopo un blocco Tabata, potresti aggiungere una Pausa Manuale.
+
+![Editor con un blocco Tabata e una Pausa Manuale](../assets/images/add_blocks_manual_pause_after_tabata.jpg)
+
+Continua ad aggiungere tutti i blocchi necessari per completare il tuo allenamento.
+
+![Editor con una sequenza di tre blocchi](../assets/images/add_blocks_add_another_block_after_manual_pause.jpg)
+
+#### Passo 5: Modificare la Sequenza
+Ogni blocco che aggiungi ha i suoi controlli:
+- **Ordinamento:** Usa le **frecce su (🔼) e giù (🔽)** su ogni blocco per cambiarne la posizione nella sequenza.
+- **Modifica:** Clicca in un punto qualsiasi della card del blocco per riaprire la finestra di dialogo e modificarne i parametri.
+- **Eliminazione:** Usa l'**icona del cestino (🗑️)** per eliminare un blocco.
+
+#### Passo 6: Finalizzare
+Quando sei soddisfatto della sequenza, premi il pulsante **"Finish"** in fondo alla schermata per salvare il workout e tornare alla lista principale.
+
+---
 
 ### 4. I Tipi di Blocco
-... *Spiega i 3 tipi di blocco che hai implementato:*
-- **Intervals:** Il blocco classico con Lavoro, Riposo, Round e Cicli. Spiega anche il "Riposo tra cicli".
-- **Stopwatch (Contatore):** Un cronometro che va avanti. Perfetto per AMRAP o "For Time".
-- **Manual Pause:** Un blocco che ferma il timer e attende un tuo input per continuare. Utile per cambi di attrezzo o pause non programmate.
+BlocksTimer ti permette di usare tre tipi di blocchi diversi per la massima flessibilità.
+
+- **Intervals (Predefinito):** È il blocco standard. Qui puoi impostare tempi di **Work**, **Rest**, **Rounds** (il numero di volte che la sequenza Lavoro/Riposo viene ripetuta) e **Cycles** (il numero di volte che l'intero set di round viene ripetuto), con la possibilità di aggiungere un recupero tra un ciclo e l'altro.
+
+- **Stopwatch (Contatore):** Un semplice cronometro che conta il tempo verso l'alto. È ideale per allenamenti "AMRAP" (As Many Rounds As Possible) o "For Time", dove l'obiettivo è completare un certo lavoro nel minor tempo possibile.
+
+- **Manual Pause (Pausa Manuale):** Questo blocco speciale mette in pausa il timer e attende un tuo comando per ripartire. È perfetto per inserire pause non cronometrate, per cambiare attrezzi o per prendere fiato prima della fase successiva.
+
+![Finestra di dialogo che mostra l'opzione Pausa Manuale](../assets/images/add_blocks_manual_pause.jpg)
+
+---
 
 ### 5. Eseguire un Allenamento: Il Player
-... *Descrivi la schermata del timer: il display principale, i controlli (play/pausa, stop, skip), le statistiche (round, cicli) e la barra di progresso totale.* ...
+*... Contenuto da aggiungere ...*
 
 ### 6. Organizzare con le Collezioni
-... *Spiega a cosa servono le collezioni e come usarle dalla schermata "Collezioni": crearne di nuove, eliminare e associare workout esistenti.* ...
+*... Contenuto da aggiungere ...*
 
 ### 7. Impostazioni Rapide
-... *Descrivi le impostazioni accessibili dal menu (Suono e Schermo Acceso).* ...
+*... Contenuto da aggiungere ...*
