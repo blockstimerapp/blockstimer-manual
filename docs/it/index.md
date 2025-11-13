@@ -15,8 +15,7 @@ Benvenuto in BlocksTimer! Questa guida ti aiuterà a scoprire tutte le funzional
 4. [I Tipi di Blocco](#4-i-tipi-di-blocco)
 5. [Eseguire un Timer: Il Player](#5-eseguire-un-timer-il-player)
 6. [Organizzare con le Collezioni](#6-organizzare-con-le-collezioni)
-7. [Impostazioni Rapide (Options)](#impostazioni-rapide-options) 
----
+7. [Impostazioni Rapide (Options)](#7-impostazioni-rapide-options)
 
 ### 1. Introduzione: A Cosa Serve BlocksTimer?
 BlocksTimer è un timer a intervalli avanzato, progettato per essere flessibile e potente. A differenza dei timer tradizionali, ti permette di costruire allenamenti complessi assemblando diversi "blocchi", ognuno con le sue regole (lavoro, riposo, round, cicli, recupero tra i cicli).
@@ -34,26 +33,32 @@ Questa è la schermata principale dell'app, il tuo centro di comando per tutti i
 
 #### Il Menu Laterale: Il Cuore della Navigazione
 
-Toccando l'icona a forma di ingranaggio (⚙️) in alto a sinistra, apri il menu di navigazione principale dell'app.
+Toccando l'icona a forma di ingranaggio (⚙️) in alto a sinistra, apri il menu di navigazione principale dell'app, da cui puoi accedere a tutte le sezioni principali.
 
 ![Il menu di navigazione principale](../assets/images/menu_settings.jpg)
 
-Da qui puoi accedere a tre sezioni chiave:
+Dal menu puoi raggiungere:
+-   **Your Collections:** La schermata per gestire i tuoi raggruppamenti di timer.
+-   **Help & Features:** Apre questa guida.
+-   **Options:** Ti permette di accedere alle impostazioni globali dell'app, descritte in dettaglio nel capitolo [Impostazioni Rapide](#7-impostazioni-rapide-options).
 
-1.  **Your Collections:** Ti porta alla schermata dedicata alla gestione delle tue collezioni.
-2.  **Help & Features:** Apre questa guida per aiutarti a usare l'app al meglio.
-3.  **Options:** Mostra una finestra di dialogo con le impostazioni rapide dell'applicazione.
+#### La Lista dei Timer
 
-Vediamo in dettaglio le **Options**:
+L'area centrale della schermata principale mostra le card di tutti i tuoi timer salvati. Puoi usare i **Filtri** in alto ("All", "Functional", "Hiit", etc.) per visualizzare solo i timer appartenenti a una specifica collezione.
 
-#### Impostazioni Rapide (Options)
+![Filtrare la lista per la collezione "Hiit"](../assets/images/timer_list_filter.jpg)
 
-Questa finestra ti permette di controllare due impostazioni globali importanti:
+#### Interagire con un Timer
 
--   **Display:** Attivando questa opzione, lo schermo del tuo dispositivo rimarrà sempre acceso durante l'esecuzione di un timer, evitando che si blocchi nel mezzo di una sessione.
--   **Sound:** Controlla tutti i suoni dell'app, inclusi i segnali acustici di inizio/fine fase e i bip del conto alla rovescia.
+Ogni timer nella lista è una card interattiva:
 
-![La finestra delle impostazioni rapide](../assets/images/menu_settings_options.jpg)
+-   **Avvio Rapido (▶️):** Premi il grande pulsante verde per avviare immediatamente il timer.
+-   **Menu Opzioni (⋮):** Apre un menu contestuale con tre opzioni:
+    -   **Edit (Modifica):** Ti riporta all'editor per modificare nome, colore e blocchi del timer.
+    -   **Associate (Associa):** Apre una finestra per collegare il timer alle tue collezioni.
+    -   **Delete (Elimina):** Avvia la procedura di cancellazione sicura del timer tramite scorrimento.
+
+![Il menu contestuale di un timer](../assets/images/timer_list_menu_associate.jpg)
 
 #### La Lista dei Timer
 
@@ -269,5 +274,11 @@ Il modo più potente per usare le collezioni è associare i tuoi timer esistenti
 
 Una volta associato, il timer apparirà sia nella lista "All" sia sotto i filtri delle collezioni scelte.
 
-### 7. Impostazioni Rapide
-*... Contenuto da aggiungere ...*
+### 7. Impostazioni Rapide (Options)
+
+Dal menu laterale, selezionando "Options", puoi accedere alle impostazioni rapide dell'applicazione. Queste opzioni si applicano globalmente a tutti i timer.
+
+![La finestra delle impostazioni rapide](../assets/images/menu_settings_options.jpg)
+
+-   **Display:** Attivando questa opzione, lo schermo del tuo dispositivo rimarrà sempre acceso durante l'esecuzione di un timer. Questo è molto utile per evitare che il telefono si blocchi nel mezzo di una sessione.
+-   **Sound:** Questo interruttore ti permette di attivare o disattivare tutti i suoni dell'app, inclusi i segnali acustici di inizio/fine fase e i bip del conto alla rovescia.
