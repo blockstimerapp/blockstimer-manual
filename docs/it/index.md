@@ -2,7 +2,7 @@
 
 # Manuale Utente di BlocksTimer
 
-Benvenuto in BlocksTimer! Questa guida ti aiuterà a scoprire tutte le funzionalità dell'app, dalla creazione del tuo primo workout alla gestione avanzata delle collezioni.
+Benvenuto in BlocksTimer! Questa guida ti aiuterà a scoprire tutte le funzionalità dell'app, dalla creazione del tuo primo timer alla gestione avanzata delle collezioni.
 
 [Switch to English version](../en/)
 
@@ -10,8 +10,8 @@ Benvenuto in BlocksTimer! Questa guida ti aiuterà a scoprire tutte le funzional
 
 ### Indice
 1. [Introduzione: A Cosa Serve BlocksTimer?](#1-introduzione)
-2. [La Schermata Principale: La Lista dei Workout](#2-la-schermata-principale)
-3. [Creare e Modificare un Workout](#3-creare-e-modificare-un-workout)
+2. [La Schermata Principale: La Lista dei timer](#2-la-schermata-principale)
+3. [Creare e Modificare un timer](#3-creare-e-modificare-un-timer)
 4. [I Tipi di Blocco](#4-i-tipi-di-blocco)
 5. [Eseguire un Allenamento: Il Player](#5-eseguire-un-allenamento)
 6. [Organizzare con le Collezioni](#6-organizzare-con-le-collezioni)
@@ -24,20 +24,20 @@ BlocksTimer è un timer a intervalli avanzato, progettato per essere flessibile 
 
 **Pregi principali:**
 - **Modularità:** Costruisci allenamenti complessi come piramidi di tempo o sessioni multi-fase.
-- **Personalizzazione:** Assegna un nome e un colore a ogni workout per riconoscerlo al volo.
-- **Organizzazione:** Raggruppa i tuoi workout preferiti in Collezioni (es. "Riscaldamento", "HIIT", "Tabata").
+- **Personalizzazione:** Assegna un nome e un colore a ogni timer per riconoscerlo al volo.
+- **Organizzazione:** Raggruppa i tuoi timer preferiti in Collezioni (es. "Riscaldamento", "HIIT", "Tabata").
 
-### 2. La Schermata Principale: La Lista dei Workout
+### 2. La Schermata Principale: La Lista dei timer
 *... Contenuto da aggiungere ...*
 
 ---
 
-### 3. Creare e Modificare un Workout
+### 3. Creare e Modificare un timer
 
-Creare un nuovo workout è un processo guidato e intuitivo. Vediamo i passaggi uno per uno.
+Creare un nuovo timer è un processo guidato e intuitivo. Vediamo i passaggi uno per uno.
 
 #### Passo 1: Iniziare
-Se non hai ancora creato nessun timer, vedrai la schermata iniziale. Premi il pulsante **"+ Add Timer"** per cominciare. Se hai già dei workout, puoi usare il pulsante **"+"** in alto a destra nella schermata principale.
+Se non hai ancora creato nessun timer, vedrai la schermata iniziale. Premi il pulsante **"+ Add Timer"** per cominciare. Se hai già dei timer, puoi usare il pulsante **"+"** in alto a destra nella schermata principale.
 
 ![Schermata iniziale per creare il primo timer](../assets/images/add_timer.jpg)
 
@@ -50,11 +50,11 @@ La prima cosa da fare è dare un'identità al tuo allenamento.
 ![Schermata per nominare il timer e scegliere un colore](../assets/images/add_timer_select_name_and_color.jpg)
 
 #### Passo 3: Aggiungere il Primo Blocco
-Ora sei nell'editor del workout. Inizialmente è vuoto. Premi **"+ Add Block"** per aprire la finestra di dialogo e creare il tuo primo blocco di allenamento.
+Ora sei nell'editor del timer. Inizialmente è vuoto. Premi **"+ Add Block"** per aprire la finestra di dialogo e creare il tuo primo blocco di allenamento.
 
-![Editor del workout vuoto](../assets/images/add_blocks_in_timer.jpg)
+![Editor del timer vuoto](../assets/images/add_blocks_in_timer.jpg)
 
-Nella finestra di dialogo, puoi definire tutti i parametri del tuo blocco: durata del lavoro (Work), del riposo (Rest), numero di Round e Cicli. Premi **"Save"** per aggiungerlo al tuo workout.
+Nella finestra di dialogo, puoi definire tutti i parametri del tuo blocco: durata del lavoro (Work), del riposo (Rest), numero di Round e Cicli. Premi **"Save"** per aggiungerlo al tuo timer.
 
 ![Finestra di dialogo per la creazione di un blocco a intervalli](../assets/images/add_blocks_dialog.jpg)
 
@@ -74,7 +74,7 @@ Ogni blocco che aggiungi ha i suoi controlli:
 - **Eliminazione:** Usa l'**icona del cestino (🗑️)** per eliminare un blocco.
 
 #### Passo 6: Finalizzare
-Quando sei soddisfatto della sequenza, premi il pulsante **"Finish"** in fondo alla schermata per salvare il workout e tornare alla lista principale.
+Quando sei soddisfatto della sequenza, premi il pulsante **"Finish"** in fondo alla schermata per salvare il timer e tornare alla lista principale.
 
 ---
 
