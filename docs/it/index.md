@@ -156,15 +156,37 @@ Quando sei soddisfatto della sequenza, premi il pulsante **"Finish"** in fondo a
 ---
 
 ### 4. I Tipi di Blocco
-BlocksTimer ti permette di usare tre tipi di blocchi diversi per la massima flessibilità.
 
-- **Intervals (Predefinito):** È il blocco standard. Qui puoi impostare tempi di **Work**, **Rest**, **Rounds** (il numero di volte che la sequenza Lavoro/Riposo viene ripetuta) e **Cycles** (il numero di volte che l'intero set di round viene ripetuto), con la possibilità di aggiungere un recupero tra un ciclo e l'altro.
+BlocksTimer ti permette di usare tre tipi di blocchi diversi per la massima flessibilità, tutti accessibili dalla finestra di dialogo "Add Block".
 
-- **Stopwatch (Contatore):** Un semplice cronometro che conta il tempo verso l'alto. È ideale per allenamenti "AMRAP" (As Many Rounds As Possible) o "For Time", dove l'obiettivo è completare un certo lavoro nel minor tempo possibile.
+![La finestra di dialogo per l'aggiunta di un blocco](../assets/images/add_blocks_dialog.jpg)
 
-- **Manual Pause (Pausa Manuale):** Questo blocco speciale mette in pausa il timer e attende un tuo comando per ripartire. È perfetto per inserire pause non cronometrate, per cambiare attrezzi o per prendere fiato prima della fase successiva.
+#### Intervals (Intervalli)
 
-![Finestra di dialogo che mostra l'opzione Pausa Manuale](../assets/images/add_blocks_manual_pause.jpg)
+È il blocco standard e il più potente, ideale per la maggior parte degli allenamenti a intervalli come HIIT, Tabata o sessioni di forza. Permette di configurare in dettaglio ogni aspetto:
+
+-   **Work (Lavoro):** La durata della fase di sforzo.
+-   **Rest (Riposo):** La durata del recupero dopo ogni fase di lavoro.
+-   **Rounds:** Il numero di volte che la sequenza Lavoro/Riposo viene ripetuta.
+-   **Cycles (Cicli):** Il numero di volte che l'intero set di round viene ripetuto. È utile per creare "super-set".
+-   **Rest between cycles (Riposo tra cicli):** Un tempo di recupero più lungo che si attiva solo alla fine di ogni ciclo (tranne l'ultimo).
+
+> **⭐ FUNZIONALITÀ AVANZATA: Round e Cicli Infiniti**
+> Impostando **Rounds** o **Cicli** sul valore **0**, creerai una sequenza che si ripete all'infinito. Il timer non si fermerà da solo. Questa funzione è perfetta per allenamenti a sfinimento o quando vuoi essere tu a decidere quando passare al blocco successivo premendo il tasto "Skip".
+
+#### Stopwatch (Contatore)
+
+Selezionando "Stopwatch", il blocco si trasforma in un semplice cronometro che conta il tempo verso l'alto (00:00, 00:01, 00:02...). Non ha una durata predefinita.
+
+-   **Ideale per:** Allenamenti "AMRAP" (As Many Rounds As Possible) o "For Time", dove l'obiettivo è completare un compito nel minor tempo possibile.
+-   **Come funziona:** Il cronometro continuerà a salire finché non sarai tu a premere il tasto "Skip" per passare al blocco successivo o per terminare il timer.
+
+#### Manual Pause (Pausa Manuale)
+
+Questo è un blocco speciale che mette in pausa il flusso del timer a tempo indeterminato.
+
+-   **Ideale per:** Inserire pause non cronometrate, per cambiare attrezzi, per spostarsi in un'altra area di allenamento o semplicemente per prendere fiato prima della fase successiva.
+-   **Come funziona:** Quando il timer raggiunge un blocco di Pausa Manuale, si ferma e attende che tu prema il pulsante "Play" per riprendere con il blocco successivo.
 
 ---
 
