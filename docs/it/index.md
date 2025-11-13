@@ -20,15 +20,51 @@ Benvenuto in BlocksTimer! Questa guida ti aiuterà a scoprire tutte le funzional
 ---
 
 ### 1. Introduzione: A Cosa Serve BlocksTimer?
-BlocksTimer è un timer a intervalli avanzato, progettato per essere flessibile e potente. A differenza dei timer tradizionali, ti permette di costruire allenamenti complessi assemblando diversi "blocchi", ognuno con le sue regole (lavoro, riposo, round, cicli).
+BlocksTimer è un timer a intervalli avanzato, progettato per essere flessibile e potente. A differenza dei timer tradizionali, ti permette di costruire allenamenti complessi assemblando diversi "blocchi", ognuno con le sue regole (lavoro, riposo, round, cicli, recupero tra i cicli).
 
 **Pregi principali:**
 - **Modularità:** Costruisci allenamenti complessi come piramidi di tempo o sessioni multi-fase.
 - **Personalizzazione:** Assegna un nome e un colore a ogni timer per riconoscerlo al volo.
 - **Organizzazione:** Raggruppa i tuoi timer preferiti in Collezioni (es. "Riscaldamento", "HIIT", "Tabata").
 
-### 2. La Schermata Principale: La Lista dei timer
-*... Contenuto da aggiungere ...*
+### 2. La Schermata Principale: La Lista dei Timer
+
+Questa è la schermata principale dell'app, il tuo centro di comando per tutti i timer che hai creato. Da qui puoi visualizzare, avviare, organizzare e gestire ogni tua sessione.
+
+![La lista dei tuoi timer](../assets/images/timer_list.jpg)
+
+#### Panoramica della Schermata
+
+1.  **Pulsante Impostazioni (⚙️):** In alto a sinistra, ti dà accesso alle opzioni rapide dell'app come "Mantieni Schermo Acceso" e "Suono".
+2.  **Pulsante Aggiungi (+):** In alto a destra, ti permette di avviare il processo di creazione di un nuovo timer.
+3.  **Lista dei Timer:** L'area centrale dove vengono mostrate le card di tutti i tuoi timer salvati.
+4.  **Filtri per Collezione:** Le linguette in alto ("All", "Functional", "Hiit", etc.) ti permettono di filtrare la lista per visualizzare solo i timer appartenenti a una specifica collezione.
+
+#### Filtrare per Collezione
+
+Toccando il nome di una collezione (es. "Hiit"), la lista mostrerà istantaneamente solo i timer che hai associato a quella categoria, aiutandoti a trovare subito quello che cerchi.
+
+![Filtrare la lista per la collezione "Hiit"](../assets/images/timer_list_filter.jpg)
+
+#### Interagire con un Timer
+
+Ogni timer nella lista è una card interattiva con diverse opzioni:
+
+-   **Avvio Rapido (▶️):** Premi il grande pulsante verde per avviare immediatamente il timer.
+-   **Menu Opzioni (⋮):** Il menu con i tre puntini verticali ti dà accesso alle funzioni di gestione avanzate.
+
+Vediamo le opzioni del menu in dettaglio:
+
+-   **Modifica:** Selezionando "Edit" (Modifica), verrai riportato alla schermata dell'editor del timer, dove potrai cambiare il nome, il colore e aggiungere, rimuovere o riordinare i blocchi.
+    ![Schermata di modifica di un timer](../assets/images/timer_list_menu_edit.jpg)
+
+-   **Associa a Collezioni:** Questa opzione apre una finestra di dialogo dove puoi facilmente collegare o scollegare il timer a una o più collezioni. Basta spuntare le caselle desiderate e premere "DONE".
+    ![Associare un timer a una o più collezioni](../assets/images/timer_list_menu_associate.jpg)
+
+-   **Elimina:** Per cancellare un timer in modo sicuro, l'app ti chiederà una conferma. Per evitare eliminazioni accidentali, dovrai scorrere il dito sul pulsante "Slide to confirm".
+    ![Conferma di eliminazione di un timer](../assets/images/timer_list_menu_delete.jpg)
+
+Questa schermata è progettata per darti un accesso rapido e completo a tutte le funzionalità principali dell'app.
 
 ---
 
