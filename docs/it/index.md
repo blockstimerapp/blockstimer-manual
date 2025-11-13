@@ -9,14 +9,13 @@ Benvenuto in BlocksTimer! Questa guida ti aiuterà a scoprire tutte le funzional
 ---
 
 ### Indice
-1. [Introduzione: A Cosa Serve BlocksTimer?](#1-introduzione)
-2. [La Schermata Principale: La Lista dei timer](#2-la-schermata-principale)
-3. [Creare e Modificare un timer](#3-creare-e-modificare-un-timer)
+1. [Introduzione: A Cosa Serve BlocksTimer?](#1-introduzione-a-cosa-serve-blockstimer)
+2. [La Schermata Principale e le Sue Funzioni](#2-la-schermata-principale-e-le-sue-funzioni)
+3. [Creare e Modificare un Timer](#3-creare-e-modificare-un-timer)
 4. [I Tipi di Blocco](#4-i-tipi-di-blocco)
-5. [Eseguire un Allenamento: Il Player](#5-eseguire-un-allenamento)
+5. [Eseguire un Timer: Il Player](#5-eseguire-un-timer-il-player)
 6. [Organizzare con le Collezioni](#6-organizzare-con-le-collezioni)
-7. [Impostazioni Rapide](#7-impostazioni-rapide)
-
+7. [Impostazioni Rapide (Options)](#impostazioni-rapide-options) 
 ---
 
 ### 1. Introduzione: A Cosa Serve BlocksTimer?
@@ -233,9 +232,42 @@ Sotto il display del tempo, puoi monitorare i tuoi progressi:
     ![Player in stato di Pausa Manuale](../assets/images/player_manual_pause.jpg)
 
 -   **Timer Infinito (∞):** Se hai impostato i round o i cicli a 0, il contatore mostrerà il simbolo dell'infinito (∞), indicando che la sequenza si ripeterà finché non sarai tu a fermarla o a saltarla.
-
 ### 6. Organizzare con le Collezioni
-*... Contenuto da aggiungere ...*
+
+Le Collezioni sono come delle cartelle per i tuoi timer. Ti permettono di raggruppare le tue sessioni per tipo di allenamento (es. "HIIT", "Riscaldamento", "Forza"), mantenendo la lista principale sempre ordinata e facile da consultare.
+
+#### La Schermata delle Collezioni
+
+Puoi accedere a questa sezione dal menu laterale, selezionando "Your Collections". Qui potrai gestire tutti i tuoi raggruppamenti.
+
+![La schermata delle tue collezioni](../assets/images/collections_list.jpg)
+
+In questa schermata puoi:
+
+-   **Espandere e Comprimere (🔼/🔽):** Usa le frecce per mostrare o nascondere i timer contenuti in una collezione.
+-   **Avviare un Timer:** Quando una collezione è espansa, puoi avviare un timer direttamente premendo il pulsante Play (▶️) accanto al suo nome.
+-   **Vedere le Statistiche:** Ogni collezione mostra la durata totale di tutti i suoi timer e il numero di timer che contiene.
+-   **Eliminare una Collezione (🗑️):** L'icona del cestino ti permette di eliminare un'intera collezione. **Nota:** questo non elimina i timer al suo interno, ma solo il raggruppamento. I timer rimarranno visibili nella lista "All".
+
+#### Creare una Nuova Collezione
+
+Per creare una nuova collezione, premi il pulsante flottante **"+"** in basso a destra. Apparirà una finestra di dialogo dove potrai inserire il nome della nuova collezione (es. "Yoga", "Cardio Leggero"). Premi "Create" per salvarla.
+
+![Creare una nuova collezione](../assets/images/collections_create.jpg)
+
+#### Associare un Timer a una Collezione
+
+Il modo più potente per usare le collezioni è associare i tuoi timer esistenti. Questa operazione si fa dalla **schermata principale della lista dei timer**:
+
+1.  Vai alla lista dei timer.
+2.  Trova il timer che vuoi organizzare e premi il menu con i tre puntini (⋮).
+3.  Seleziona l'opzione **"Associate"**.
+4.  Nella finestra che appare, spunta le caselle di tutte le collezioni a cui vuoi aggiungere il timer. Puoi associare un timer a più collezioni contemporaneamente.
+5.  Premi **"DONE"** per confermare.
+
+![Associare un timer a una collezione dalla lista principale](../assets/images/timer_list_menu_associate.jpg)
+
+Una volta associato, il timer apparirà sia nella lista "All" sia sotto i filtri delle collezioni scelte.
 
 ### 7. Impostazioni Rapide
 *... Contenuto da aggiungere ...*
