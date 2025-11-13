@@ -190,8 +190,49 @@ Questo è un blocco speciale che mette in pausa il flusso del timer a tempo inde
 
 ---
 
-### 5. Eseguire un Allenamento: Il Player
-*... Contenuto da aggiungere ...*
+### 5. Eseguire un Timer: Il Player
+
+Una volta avviato un timer, si accede alla schermata del Player, progettata per essere chiara e leggibile anche durante gli allenamenti più intensi. L'interfaccia cambia colore e layout a seconda della fase in cui ti trovi.
+
+#### Le Fasi del Timer
+
+1.  **Prepare (Preparazione):** Un conto alla rovescia iniziale di 10 secondi (giallo) ti dà il tempo di prepararti prima che inizi la prima fase di lavoro. In basso, puoi vedere un'anteprima del blocco successivo.
+    ![Fase di preparazione del timer](../assets/images/player_prepare.jpg)
+
+2.  **Work (Lavoro):** È la fase attiva del tuo allenamento (verde). Il display principale mostra il tempo rimanente.
+    ![Fase di lavoro del timer](../assets/images/player_work.jpg)
+
+3.  **Rest (Riposo):** La fase di recupero (blu). Anche qui, puoi vedere l'anteprima della fase successiva in basso.
+    ![Fase di riposo del timer](../assets/images/player_only_rest.jpg)
+
+4.  **Finished (Terminato):** Al completamento di tutti i blocchi, il timer mostra una schermata di fine (verde) e l'unico controllo disponibile è il tasto "Riavvia".
+    ![Schermata di fine timer](../assets/images/player_finish.jpg)
+
+#### Controlli del Player
+
+Nella parte inferiore dello schermo trovi i controlli principali:
+
+-   **Pausa/Riprendi (❚❚ / ▶):** Mette in pausa il timer o lo fa ripartire dal punto in cui si era interrotto.
+-   **Stop (■):** Ferma completamente il timer e ti fa tornare alla lista principale.
+-   **Skip (►►):** Salta immediatamente alla fase successiva della sequenza.
+
+#### Statistiche in Tempo Reale
+
+Sotto il display del tempo, puoi monitorare i tuoi progressi:
+
+-   **Rounds:** Mostra il round corrente rispetto al totale (es. `1/8`).
+-   **Cycles:** Mostra il ciclo corrente rispetto al totale (es. `1/1`).
+-   **Barra di Progresso:** Indica visivamente a che punto sei dell'intero timer.
+
+#### Funzionalità Speciali del Player
+
+-   **Stopwatch (Contatore):** Quando un blocco è di tipo Stopwatch, il tempo conta verso l'alto e mostra i centesimi di secondo per una maggiore precisione.
+    ![Player in modalità Stopwatch](../assets/images/player_stopwatch.jpg)
+
+-   **Manual Pause (Pausa Manuale):** Quando il timer raggiunge un blocco di Pausa Manuale, l'interfaccia ti invita a premere "Play" per continuare, dandoti tutto il tempo di cui hai bisogno.
+    ![Player in stato di Pausa Manuale](../assets/images/player_manual_pause.jpg)
+
+-   **Timer Infinito (∞):** Se hai impostato i round o i cicli a 0, il contatore mostrerà il simbolo dell'infinito (∞), indicando che la sequenza si ripeterà finché non sarai tu a fermarla o a saltarla.
 
 ### 6. Organizzare con le Collezioni
 *... Contenuto da aggiungere ...*
