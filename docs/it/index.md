@@ -27,11 +27,52 @@ BlocksTimer è un timer a intervalli avanzato, progettato per essere flessibile 
 - **Personalizzazione:** Assegna un nome e un colore a ogni timer per riconoscerlo al volo.
 - **Organizzazione:** Raggruppa i tuoi timer preferiti in Collezioni (es. "Riscaldamento", "HIIT", "Tabata").
 
-### 2. La Schermata Principale: La Lista dei Timer
+### 2. La Schermata Principale e le Sue Funzioni
 
 Questa è la schermata principale dell'app, il tuo centro di comando per tutti i timer che hai creato. Da qui puoi visualizzare, avviare, organizzare e gestire ogni tua sessione.
 
 ![La lista dei tuoi timer](../assets/images/timer_list.jpg)
+
+#### Il Menu Laterale: Il Cuore della Navigazione
+
+Toccando l'icona a forma di ingranaggio (⚙️) in alto a sinistra, apri il menu di navigazione principale dell'app.
+
+![Il menu di navigazione principale](../assets/images/menu_settings.jpg)
+
+Da qui puoi accedere a tre sezioni chiave:
+
+1.  **Your Collections:** Ti porta alla schermata dedicata alla gestione delle tue collezioni.
+2.  **Help & Features:** Apre questa guida per aiutarti a usare l'app al meglio.
+3.  **Options:** Mostra una finestra di dialogo con le impostazioni rapide dell'applicazione.
+
+Vediamo in dettaglio le **Options**:
+
+#### Impostazioni Rapide (Options)
+
+Questa finestra ti permette di controllare due impostazioni globali importanti:
+
+-   **Display:** Attivando questa opzione, lo schermo del tuo dispositivo rimarrà sempre acceso durante l'esecuzione di un timer, evitando che si blocchi nel mezzo di una sessione.
+-   **Sound:** Controlla tutti i suoni dell'app, inclusi i segnali acustici di inizio/fine fase e i bip del conto alla rovescia.
+
+![La finestra delle impostazioni rapide](../assets/images/menu_settings_options.jpg)
+
+#### La Lista dei Timer
+
+L'area centrale della schermata principale mostra le card di tutti i tuoi timer salvati. Puoi usare i **Filtri** in alto ("All", "Functional", "Hiit", etc.) per visualizzare solo i timer appartenenti a una specifica collezione.
+
+![Filtrare la lista per la collezione "Hiit"](../assets/images/timer_list_filter.jpg)
+
+#### Interagire con un Timer
+
+Ogni timer nella lista è una card interattiva:
+
+-   **Avvio Rapido (▶️):** Premi il grande pulsante verde per avviare immediatamente il timer.
+-   **Menu Opzioni (⋮):** Apre un menu contestuale con tre opzioni:
+    -   **Edit (Modifica):** Ti riporta all'editor per modificare nome, colore e blocchi del timer.
+    -   **Associate (Associa):** Apre una finestra per collegare il timer alle tue collezioni.
+    -   **Delete (Elimina):** Avvia la procedura di cancellazione sicura del timer tramite scorrimento.
+
+![Il menu contestuale di un timer](../assets/images/timer_list_menu_associate.jpg)
 
 #### Panoramica della Schermata
 
